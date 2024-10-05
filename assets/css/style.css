@@ -47,6 +47,7 @@
 :: 1.0 WEB FONTS
 ****************************** */
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Markazi%20Text:300,400,500,600,700&display=swap");
 /* ******************************
 :: 2.0 IMPORT ALL CSS
 ****************************** */
@@ -63,6 +64,7 @@
 ****************************** */
 :root {
   --primary-font: 'Poppins', sans-serif;
+  --secondary-font: 'Markazi Text', 'Times New Roman', 'Arial', Verdana, Helvetica, sans-serif;
   --h1-size: 4rem;
   --h1-weight: 600;
   --h2-size: 3rem;
@@ -96,7 +98,7 @@
   --valid-color: #28a745;
   --invalid-color: #ffa200;
   --primary-bg-color: #f6f9fe;
-  --primary-bg-color-2: linear-gradient(-47deg, #8731E8 0%, #4528DC 100%);
+  --primary-bg-color-2: linear-gradient(-47deg, #5898e8 0%, #bbd5f6 100%);
   --primary-bg-color-3: #ffffff;
   --primary-bg-color-4: rgba(16, 16, 45, 1);
   --nav-bg-color: #d3d3d3;
@@ -113,6 +115,10 @@ body {
   line-height: 1.5;
   font-weight: 400;
   color: var(--primary-color);
+}
+
+.secondary-font {
+  font-family: var(--secondary-font);
 }
 
 @media (max-width: 991px) {
