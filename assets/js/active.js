@@ -151,6 +151,7 @@
         loop: true,
         nav: false,
         dots: true,
+        rtl: true,
         smartSpeed: 1500,
         autoplay: true,
         autoplayTimeout: 6000,
@@ -162,6 +163,7 @@
     testimonialSlider.owlCarousel({
         items: 1,
         nav: false,
+        rtl: true,
         dots: true,
         smartSpeed: 500,
         autoplay: true,
@@ -225,6 +227,7 @@
         autoplaySpeed: 3000,
         pauseOnHover: false,
         pauseOnFocus: false,
+        rtl: true,
         responsive: [
             {
                 breakpoint: 1024,

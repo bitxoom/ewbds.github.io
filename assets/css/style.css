@@ -1765,14 +1765,14 @@ img {
 
 .work-area .single-work::after {
   position: absolute;
-  content: '\f054';
+  content: '\f053';
   font-size: 45px;
   font-weight: 900;
   color: var(--white-color);
   font-family: 'Font Awesome 5 Free';
   top: 50%;
-  right: 0;
-  margin-right: -50px;
+  left: 0;
+  margin-left: -30px;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   -webkit-transition: -webkit-transform 0.3s;
@@ -1993,7 +1993,7 @@ img {
   position: absolute;
   content: '\f107';
   top: 50%;
-  left: calc(100% - 1.25rem);
+  right: calc(100% - 1.25rem);
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   font-size: 18px;
@@ -2605,7 +2605,8 @@ img {
 ****************************** */
 .height-emulator {
   float: left;
-  height: 585px;
+  height: 85px;
+  /* height: 585px; */
 }
 
 .footer-area .footer-items .social-icons > a {
