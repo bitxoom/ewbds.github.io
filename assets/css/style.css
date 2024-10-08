@@ -98,7 +98,7 @@
   --valid-color: #28a745;
   --invalid-color: #ffa200;
   --primary-bg-color: #f6f9fe;
-  --primary-bg-color-2: linear-gradient(-47deg, #5898e8 0%, #bbd5f6 100%);
+  --primary-bg-color-2: linear-gradient(-47deg, #9dfa3a 0%, #00f9e3 100%);
   --primary-bg-color-3: #ffffff;
   --primary-bg-color-4: rgba(16, 16, 45, 1);
   --nav-bg-color: #d3d3d3;
@@ -655,7 +655,7 @@ img {
   width: 100%;
   top: 0;
   left: 0;
-  background: var(--primary-bg-color-2);
+  background: var(--primary-bg-color-4);
   opacity: 0.94;
   z-index: -1;
 }
